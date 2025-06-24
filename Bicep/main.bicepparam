@@ -1,0 +1,10 @@
+using 'main.bicep'
+
+param environmentName = 'flexenvironment'
+param location = 'eastus'
+param functionAppRuntime = 'custom'
+param functionAppRuntimeVersion = '1.0'
+param resourceGroupName = 'myresourcegroup'
+param functionPlanName = 'myfunctionplan'
+param functionAppName = 'myfunctionapp'
+param storageAccountName = 'mystorageaccount'
