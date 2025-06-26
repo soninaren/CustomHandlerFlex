@@ -2,7 +2,7 @@
 
 ## Create function app using bicep file
 
-This bicep sample deploys sample deploys a function app and other required resources in a Flex Consumption plan. When used in a Bicep-based deployment, this Bicep file creates these Azure components:
+This bicep sample deploys a function app and other required resources in a Flex Consumption plan. When used in a Bicep-based deployment, this Bicep file creates these Azure components:
 
 | Component | Description |
 | ---- | ---- |
