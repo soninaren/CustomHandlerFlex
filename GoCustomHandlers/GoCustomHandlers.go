@@ -24,7 +24,7 @@ func simpleHttpTriggerHandler(w http.ResponseWriter, r *http.Request) {
 		fmt.Println("k:", k, "v:", v)
 	}
 
-	w.Write([]byte("Hello World from go worker sixth"))
+	w.Write([]byte("Hello World from go worker"))
 }
 
 func main() {

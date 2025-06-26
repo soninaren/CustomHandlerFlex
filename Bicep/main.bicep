@@ -30,7 +30,7 @@ var resourceToken = toLower(uniqueString(subscription().id, environmentName, loc
 // Generate a unique function app name if one is not provided.
 var appName = !empty(functionAppName) ? functionAppName : '${shortGuid}${abbrs.webSitesFunctions}${resourceToken}'
 // Generate a unique container name that will be used for deployments.
-var deploymentStorageContainerName = 'app-package-${take(appName, 32)}-${take(resourceToken, 7)}'
+var deploymentStorageContainerName = 'app-package-${take(toLower(appName), 32)}-${take(resourceToken, 7)}'
 // tags that should be applied to all resources.
 var tags = {
   // Tag all resources with the environment name.

@@ -99,6 +99,11 @@ cd ..
 az functionapp deployment source config-zip --resource-group {ResourceGropName} --name {AppName} --src "{PathToZipFile}"
 ```
 
+Sample
+```powershell 
+.\ZipUtility\ZipUtility.ps1 -SourceDirectory "C:\root\CustomHandlerFlex\GoCustomHandlers" -OutputZipPath "C:\root\CustomHandlerFlex\out.zip" -ExecutableFiles GoCustomHandlers
+```
+
 #### Linux
 
 ```Bash
